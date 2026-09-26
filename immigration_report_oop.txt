@@ -1,0 +1,17 @@
+==================================================
+Smart Immigration Advisor - OOP Report
+==================================================
+Name: google
+Age: 35
+Education: phd
+Experience: 20 years
+English Level: Advanced
+--------------------------------------------------
+CANADA: 75.4 points
+GERMANY: 61.6 points
+JAPAN: 56.8 points
+AUSTRALIA: 82.3 points
+--------------------------------------------------
+Best Country: AUSTRALIA
+Final Score: 82.3
+==================================================
