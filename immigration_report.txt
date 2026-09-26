@@ -1,0 +1,18 @@
+==================================================
+📋 Smart Immigration Advisor - Full Report
+==================================================
+👤 Name: حسین شهابی
+📅 Age: 43
+🎓 Education: master
+💼 Experience: 5 years
+🗣️  English Level: Beginner
+--------------------------------------------------
+📊 Final Scores:
+   CANADA: 73.2 points
+   GERMANY: 59.4 points
+   JAPAN: 54.6 points
+   AUSTRALIA: 79.6 points
+--------------------------------------------------
+🥇 Best Country: AUSTRALIA
+⭐ Final Score: 79.6
+==================================================
