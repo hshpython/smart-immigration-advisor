@@ -7,23 +7,26 @@ A Python-based application that helps users compare countries for immigration ba
 ## ✨ Features
 
 - Compares 4 countries (Canada, Germany, Japan, Australia)
-- Evaluates based on 6 factors:
+- Evaluates based on 7 factors:
+  - Age
+  - Education
+  - Experience
   - Language difficulty
   - Culture fit
-  - Weather
   - Security
-  - Cost of living
-  - Python job market
-- Supports 5 education levels (Diploma, Associate, Bachelor, Master, PhD)
+  - **Live weather from API**
+- **Live weather data from Open-Meteo API**
 - Beautiful GUI built with Tkinter
-- Automatic report generation and file storage
+- Automatic report generation
 
 ---
 
 ## 🛠️ Technologies Used
 
 - **Python 3.x**
+- **Requests** (for API calls)
 - **Tkinter** (GUI)
+- **Open-Meteo API** (live weather data)
 - **Git & GitHub**
 
 ---
@@ -42,16 +45,22 @@ git clone https://github.com/hshpython/smart-immigration-advisor.git
 cd smart-immigration-advisor
 ```
 
-3. Run the GUI application:
+3. Install dependencies:
 
 ```bash
-python gui_app.py
+pip install -r requirements.txt
 ```
 
-Or run the terminal version:
+4. Run the terminal version:
 
 ```bash
 python main.py
+```
+
+Or run the GUI version:
+
+```bash
+python gui_app.py
 ```
 
 ---
@@ -68,13 +77,11 @@ The application calculates an immigration score for each country based on:
 | Culture | 20% | Cultural compatibility |
 | Cost of Living | 10% | Affordability |
 | Security | 10% | Safety and stability |
-| Weather | 10% | Climate compatibility |
+| Weather | 10% | Climate compatibility (live API) |
 
 The country with the highest final score is recommended.
 
 ---
-
-## 📸 Screenshot
 
 ## 📸 Screenshot
 
@@ -92,28 +99,3 @@ The country with the highest final score is recommended.
 ## 📄 License
 
 This project is open-source and available for learning purposes.
-
----
-## 🎯 Features
-
-- Compares 4 countries (Canada, Germany, Japan, Australia)
-- Evaluates based on 7 factors:
-  - Age
-  - Education
-  - Experience
-  - Language difficulty
-  - Culture fit
-  - Security
-  - **Live weather from API**
-- **Live weather data from Open-Meteo API**
-- Beautiful GUI built with Tkinter
-- Automatic report generation
-
-## 🚀 How to Run
-
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-
-Run the application:
-python main.py
