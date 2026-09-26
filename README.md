@@ -76,7 +76,9 @@ The country with the highest final score is recommended.
 
 ## 📸 Screenshot
 
-![Screenshot](screenshot.png)
+## 📸 Screenshot
+
+![Screenshot](ScreenShot.png)
 
 ---
 
