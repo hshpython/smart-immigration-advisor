@@ -90,3 +90,28 @@ The country with the highest final score is recommended.
 ## 📄 License
 
 This project is open-source and available for learning purposes.
+
+---
+## 🎯 Features
+
+- Compares 4 countries (Canada, Germany, Japan, Australia)
+- Evaluates based on 7 factors:
+  - Age
+  - Education
+  - Experience
+  - Language difficulty
+  - Culture fit
+  - Security
+  - **Live weather from API**
+- **Live weather data from Open-Meteo API**
+- Beautiful GUI built with Tkinter
+- Automatic report generation
+
+## 🚀 How to Run
+
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+
+Run the application:
+python main.py
