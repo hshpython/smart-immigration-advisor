@@ -14,3 +14,19 @@ A simple Python game where the player tries to guess a random number.
 
 ```bash
 python guessing_game.py
+
+How to Play
+The program selects a random number between 1 and 100
+
+You have 10 attempts to guess it
+
+After each guess, you'll get a hint:
+
+📉 Too low!
+
+📈 Too high!
+
+Win by guessing the correct number
+
+Author
+Hossein Shahabi
