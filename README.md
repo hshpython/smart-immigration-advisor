@@ -67,25 +67,48 @@ python gui_app.py
 
 ## 🎯 My Projects
 
-### 1. 🌟 Smart Immigration Advisor (Main Project)
-A comprehensive tool that compares 4 countries (Canada, Germany, Japan, Australia) for immigration based on 7 factors.
+### 1. 🌟 Smart Immigration Advisor - Advanced (Main Project)
+A comprehensive GUI application that compares 4 countries for immigration.
 
-**Technologies**: Python, Requests, Open-Meteo API, Tkinter, OOP
+**Features**:
+- 3 tabs (Input, Results, History)
+- Live weather from Open-Meteo API
+- Comparison chart with matplotlib
+- History saved in JSON
+- Object-oriented design
 
-### 2. 🎮 Number Guessing Game
+**Technologies**: Python, Tkinter, Requests, Matplotlib, JSON, OOP
+
+### 2. 🧮 Advanced Calculator
+A full-featured calculator like Google Play apps.
+
+**Features**:
+- Scientific functions (sin, cos, tan, log, sqrt)
+- Memory operations (M+, M-, MR, MC)
+- Calculation history
+- Unit converter (Temperature, Length, Weight)
+
+**Technologies**: Python, Tkinter, JSON, Math
+
+### 3. 🎮 Number Guessing Game
 A fun interactive game where the player guesses a random number.
 
-**Technologies**: Python, random module, while loops
+**Technologies**: Python, random module
 
-### 3. 🧮 Simple Calculator
+### 4. 🧮 Simple Calculator
 A command-line calculator supporting basic operations.
 
-**Technologies**: Python, function dictionary, error handling
+**Technologies**: Python, function dictionary
 
-### 4. 📞 Phone Book Application
-A CRUD application to manage contacts with full validation and file storage.
+### 5. 📞 Phone Book Application
+A CRUD application with full validation.
 
-**Technologies**: Python, JSON, Regex, file handling
+**Features**:
+- Regex validation for name, phone, email
+- JSON storage
+- Full CRUD operations
+
+**Technologies**: Python, JSON, Regex
 
 ## 📊 How It Works
 
