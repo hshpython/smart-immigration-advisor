@@ -1,0 +1,61 @@
+[
+    {
+        "timestamp": "2026-09-29 18:38:53",
+        "name": "hossein shahabi",
+        "age": 43,
+        "education": "associate",
+        "experience": 5,
+        "english_level": "Intermediate",
+        "best_country": "australia",
+        "countries": [
+            {
+                "name": "canada",
+                "language": "English/French",
+                "language_difficulty": 3,
+                "python_jobs": 9,
+                "culture_fit": 8,
+                "living_cost": 7,
+                "security": 9,
+                "weather": 4,
+                "immigration_score": 37,
+                "final_score": 72.7
+            },
+            {
+                "name": "germany",
+                "language": "German",
+                "language_difficulty": 7,
+                "python_jobs": 8,
+                "culture_fit": 6,
+                "living_cost": 6,
+                "security": 9,
+                "weather": 5,
+                "immigration_score": 31,
+                "final_score": 57.1
+            },
+            {
+                "name": "japan",
+                "language": "Japanese",
+                "language_difficulty": 9,
+                "python_jobs": 7,
+                "culture_fit": 5,
+                "living_cost": 8,
+                "security": 10,
+                "weather": 6,
+                "immigration_score": 31,
+                "final_score": 52.1
+            },
+            {
+                "name": "australia",
+                "language": "English",
+                "language_difficulty": 2,
+                "python_jobs": 8,
+                "culture_fit": 9,
+                "living_cost": 7,
+                "security": 9,
+                "weather": 9,
+                "immigration_score": 31,
+                "final_score": 76.1
+            }
+        ]
+    }
+]
