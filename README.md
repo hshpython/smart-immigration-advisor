@@ -65,6 +65,28 @@ python gui_app.py
 
 ---
 
+## 🎯 My Projects
+
+### 1. 🌟 Smart Immigration Advisor (Main Project)
+A comprehensive tool that compares 4 countries (Canada, Germany, Japan, Australia) for immigration based on 7 factors.
+
+**Technologies**: Python, Requests, Open-Meteo API, Tkinter, OOP
+
+### 2. 🎮 Number Guessing Game
+A fun interactive game where the player guesses a random number.
+
+**Technologies**: Python, random module, while loops
+
+### 3. 🧮 Simple Calculator
+A command-line calculator supporting basic operations.
+
+**Technologies**: Python, function dictionary, error handling
+
+### 4. 📞 Phone Book Application
+A CRUD application to manage contacts with full validation and file storage.
+
+**Technologies**: Python, JSON, Regex, file handling
+
 ## 📊 How It Works
 
 The application calculates an immigration score for each country based on:
