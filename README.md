@@ -1,74 +1,13 @@
-# 🌟 Smart Immigration Advisor
+# 🌟 Python Portfolio - Hossein Shahabi
 
-A Python-based application that helps users compare countries for immigration based on multiple factors.
-
----
-
-## ✨ Features
-
-- Compares 4 countries (Canada, Germany, Japan, Australia)
-- Evaluates based on 7 factors:
-  - Age
-  - Education
-  - Experience
-  - Language difficulty
-  - Culture fit
-  - Security
-  - **Live weather from API**
-- **Live weather data from Open-Meteo API**
-- Beautiful GUI built with Tkinter
-- Automatic report generation
+A collection of Python projects built from scratch, covering various domains from immigration analysis to hospital management systems.
 
 ---
 
-## 🛠️ Technologies Used
+## 📁 Projects
 
-- **Python 3.x**
-- **Requests** (for API calls)
-- **Tkinter** (GUI)
-- **Open-Meteo API** (live weather data)
-- **Git & GitHub**
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/hshpython/smart-immigration-advisor.git
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd smart-immigration-advisor
-```
-
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the terminal version:
-
-```bash
-python main.py
-```
-
-Or run the GUI version:
-
-```bash
-python gui_app.py
-```
-
----
-
-## 🎯 My Projects
-
-### 1. 🌟 Smart Immigration Advisor - Advanced (Main Project)
-A comprehensive GUI application that compares 4 countries for immigration.
+### 1. 🌟 Smart Immigration Advisor (Main Project)
+A comprehensive GUI application that compares 4 countries for immigration based on 7 factors.
 
 **Features**:
 - 3 tabs (Input, Results, History)
@@ -79,7 +18,31 @@ A comprehensive GUI application that compares 4 countries for immigration.
 
 **Technologies**: Python, Tkinter, Requests, Matplotlib, JSON, OOP
 
-### 2. 🧮 Advanced Calculator
+---
+
+### 2. 🏥 Hospital Management System (Biggest Project)
+A complete hospital management application with SQLite database.
+
+**Features**:
+- 4 tabs (Dashboard, Patients, Doctors, Appointments)
+- Full CRUD operations
+- SQLite database with foreign keys
+- Data validation with Regex
+- Dashboard with statistics
+- Appointment scheduling with time slot check
+
+**Technologies**: Python, Tkinter, SQLite, Regex, OOP
+
+**Files**:
+- `hospital_db.py` - Database setup
+- `hospital_gui_full.py` - Full GUI application
+- `patient_manager.py` - Patient CRUD (CLI)
+- `doctor_manager.py` - Doctor CRUD (CLI)
+- `appointment_manager.py` - Appointment CRUD (CLI)
+
+---
+
+### 3. 🧮 Advanced Calculator
 A full-featured calculator like Google Play apps.
 
 **Features**:
@@ -90,47 +53,87 @@ A full-featured calculator like Google Play apps.
 
 **Technologies**: Python, Tkinter, JSON, Math
 
-### 3. 🎮 Number Guessing Game
-A fun interactive game where the player guesses a random number.
+---
 
-**Technologies**: Python, random module
-
-### 4. 🧮 Simple Calculator
-A command-line calculator supporting basic operations.
-
-**Technologies**: Python, function dictionary
-
-### 5. 📞 Phone Book Application
+### 4. 📞 Phone Book Application
 A CRUD application with full validation.
 
 **Features**:
 - Regex validation for name, phone, email
 - JSON storage
 - Full CRUD operations
+- Persian/English name support
 
 **Technologies**: Python, JSON, Regex
 
-## 📊 How It Works
+---
 
-The application calculates an immigration score for each country based on:
+### 5. 🎮 Number Guessing Game
+A fun interactive game where the player guesses a random number.
 
-| Factor | Weight | Description |
-|--------|--------|-------------|
-| Immigration Score | 10% | Based on age, education, experience |
-| Language | 20% | Difficulty of learning the language |
-| Job Market | 20% | Python job opportunities |
-| Culture | 20% | Cultural compatibility |
-| Cost of Living | 10% | Affordability |
-| Security | 10% | Safety and stability |
-| Weather | 10% | Climate compatibility (live API) |
+**Features**:
+- Random number generation
+- Difficulty levels
+- Input validation
+- Play again option
 
-The country with the highest final score is recommended.
+**Technologies**: Python, random module
 
 ---
 
-## 📸 Screenshot
+### 6. 🧮 Simple Calculator
+A command-line calculator supporting basic operations.
 
-![Screenshot](ScreenShot.png)
+**Technologies**: Python, function dictionary
+
+---
+
+### 7. 🌍 Country Info (Offline)
+Country information system with offline dataset.
+
+**Features**:
+- Search countries
+- Compare two countries
+- Immigration score comparison
+- 8 countries in dataset
+
+**Technologies**: Python
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- **Python 3.x** - All projects
+- **Tkinter** - GUI development
+- **SQLite** - Database management
+- **Requests** - API calls
+- **Matplotlib** - Data visualization
+- **JSON** - Data persistence
+- **Regex** - Input validation
+- **OOP** - Class-based design
+- **Git & GitHub** - Version control
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/hshpython/smart-immigration-advisor.git
+cd smart-immigration-advisor
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run any project:
+```bash
+python hospital_gui_full.py    # Hospital System
+python advanced_immigration.py  # Immigration Advisor
+python advanced_calculator.py   # Calculator
+```
 
 ---
 
@@ -138,6 +141,7 @@ The country with the highest final score is recommended.
 
 **Hossein Shahabi**
 - GitHub: [@hshpython](https://github.com/hshpython)
+- Goal: Python Developer & Immigration to Canada/Australia
 
 ---
 
